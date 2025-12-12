@@ -1,39 +1,150 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
 
   <title>Leman Russ Returns</title>
+  <meta name="description" content="New post. Click to read the full reveal." />
+  <link rel="canonical" href="https://altkorin.github.io/LemanRussReturns/" />
 
   <!-- Open Graph (Facebook / Messenger) -->
-  <meta property="og:title" content="Leman Russ Returns">
-  <meta property="og:description" content="New post">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://altkorin.github.io/LemanRussReturns/">
+  <meta property="og:site_name" content="AltKorin" />
+  <meta property="og:title" content="Leman Russ Returns" />
+  <meta property="og:description" content="New post. Click to read the full reveal." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://altkorin.github.io/LemanRussReturns/" />
 
-  <meta property="og:image" content="https://altkorin.github.io/LemanRussReturns/cover.jpg">
-  <meta property="og:image:secure_url" content="https://altkorin.github.io/LemanRussReturns/cover.jpg">
-  <meta property="og:image:type" content="image/jpeg">
+  <!-- IMPORTANT: must be publicly reachable and valid content-type -->
+  <meta property="og:image" content="https://altkorin.github.io/LemanRussReturns/cover.jpg" />
+  <meta property="og:image:secure_url" content="https://altkorin.github.io/LemanRussReturns/cover.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
-  <meta property="og:site_name" content="AltKorin">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Leman Russ Returns" />
+  <meta name="twitter:description" content="New post. Click to read the full reveal." />
+  <meta name="twitter:image" content="https://altkorin.github.io/LemanRussReturns/cover.jpg" />
 
-  <!-- Twitter (nie szkodzi, czasem pomaga) -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Leman Russ Returns">
-  <meta name="twitter:description" content="New post">
-  <meta name="twitter:image" content="https://altkorin.github.io/LemanRussReturns/cover.jpg">
+  <!-- Basic hardening -->
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: #0b0d10;
+      color: #e9edf2;
+      line-height: 1.55;
+    }
+    header { padding: 28px 18px 8px; border-bottom: 1px solid rgba(255,255,255,.08); }
+    .wrap { max-width: 880px; margin: 0 auto; }
+    .kicker { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .75; }
+    h1 { margin: 10px 0 8px; font-size: 36px; line-height: 1.15; }
+    .meta { font-size: 13px; opacity: .7; }
+    main { padding: 18px; }
+    .hero {
+      margin: 18px 0 14px;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(255,255,255,.03);
+    }
+    .hero img { display:block; width:100%; height:auto; }
+    .lead {
+      font-size: 18px;
+      opacity: .92;
+      margin: 10px 0 16px;
+    }
+    article {
+      padding: 18px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(255,255,255,.03);
+    }
+    h2 { margin: 18px 0 8px; font-size: 18px; }
+    p { margin: 10px 0; }
+    .note {
+      margin-top: 16px;
+      font-size: 13px;
+      opacity: .75;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: rgba(255,255,255,.10);
+      border: 1px solid rgba(255,255,255,.14);
+      color: #e9edf2;
+      text-decoration: none;
+    }
+    .btn:hover { background: rgba(255,255,255,.14); }
+  </style>
+
+  <!-- JSON-LD (optional, helps some scrapers) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Leman Russ Returns",
+    "description": "New post. Click to read the full reveal.",
+    "image": ["https://altkorin.github.io/LemanRussReturns/cover.jpg"],
+    "author": { "@type": "Person", "name": "AltKorin" },
+    "publisher": { "@type": "Organization", "name": "AltKorin" },
+    "mainEntityOfPage": "https://altkorin.github.io/LemanRussReturns/"
+  }
+  </script>
 </head>
+
 <body>
-  Loading…
+  <header>
+    <div class="wrap">
+      <div class="kicker">Article</div>
+      <h1>Leman Russ Returns</h1>
+      <div class="meta">Published: <time datetime="2025-12-12">Dec 12, 2025</time> · 2 min read</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <img src="cover.jpg" alt="Cover image" />
+    </div>
+
+    <article>
+      <p class="lead">
+        A new post is live. Tap to open the full reveal and continue reading.
+      </p>
+
+      <h2>What to expect</h2>
+      <p>
+        A short preview is shown here for link unfurling. When opened in a browser, the page will continue automatically.
+      </p>
+
+      <h2>Details</h2>
+      <p>
+        This page is intentionally lightweight and public so link previews can display title, description, and image consistently.
+      </p>
+
+      <a class="btn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" rel="noopener">Open full post</a>
+
+      <p class="note">
+        If you are not redirected automatically, use the button above.
+      </p>
+    </article>
+
+    <noscript>
+      <p class="note">JavaScript is disabled. Use the “Open full post” button.</p>
+    </noscript>
+  </main>
 
   <script>
-    // FB/Messenger nie wykonuje JS – użytkownik zostanie przekierowany
-    setTimeout(function () {
-      window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-    }, 900);
+    const REDIRECT_TO = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    // Delay so humans see a moment of content; scrapers ignore JS anyway.
+    setTimeout(() => window.location.replace(REDIRECT_TO), 900);
   </script>
 </body>
 </html>
-
-
